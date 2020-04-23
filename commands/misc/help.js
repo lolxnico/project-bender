@@ -15,6 +15,6 @@ module.exports = class helpCommand extends Command {
     }
 
     run(msg) {
-      return msg.say('Currently, there are a few commands. ```!Help - lists commands, !addrole - Changes user role with permissions```');
+      return msg.say('Currently, there are a few commands. ```!Help - lists commands, !kick - Kicks mentioned user, !addrole - Changes user role with permissions, !avatar - sends you specified users profile picture,```');
     }
 };
